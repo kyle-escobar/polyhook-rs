@@ -1,0 +1,16 @@
+[package]
+name = "polyhook2"
+version = "1.0.0"
+authors = ["Kyle Escobar <kyle-escobar>"]
+description = "High level bindings for PolyHook2 for Rust."
+license = "MIT"
+categories = ["api-bindings"]
+keywords = ["hook", "polyhook", "ffi", "detour", "veh", "memory", "mem", "hacking", "lib"]
+edition = "2021"
+
+[features]
+default = []
+bindgen = ["polyhook2-sys/bindgen"]
+
+[dependencies]
+polyhook2-sys = { version = "1.0.0", path = "../polyhook2-sys" }

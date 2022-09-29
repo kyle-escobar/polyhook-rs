@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "polyhook2",
+    "polyhook2-sys"
+]
